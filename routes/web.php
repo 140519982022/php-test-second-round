@@ -19,5 +19,8 @@ use App\Http\Controllers\ApiController;
 //     return view('welcome');
 // });
 
+/**
+ * run project route
+ */
 Route::get('/', [ApiController::class, 'index']);
 

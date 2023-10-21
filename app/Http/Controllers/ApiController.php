@@ -28,6 +28,7 @@ class ApiController extends Controller
          * Parse the data
          */
         $data = $response->json();
+        
         // dd($data);
 
         /**

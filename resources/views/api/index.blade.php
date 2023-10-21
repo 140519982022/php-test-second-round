@@ -7,7 +7,7 @@
 <body>
     <h1>API Data</h1>
     <ul>
-        <?php // dd($data['TotalCasesCP']);
+        <?php  // dd($data['TotalCasesCP']);
         ?>
         @if (!empty($data['TotalCasesCP']))
             @foreach($data['TotalCasesCP'] as $case)
